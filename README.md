@@ -5,7 +5,9 @@
 [![codecov](https://codecov.io/gh/davidbrochart/ipygeotiff/branch/master/graph/badge.svg)](https://codecov.io/gh/davidbrochart/ipygeotiff)
 
 
-A Jupyter - geotiff.js bridge
+`ipygeotiff` is a Jupyter - `geotiff.js` bridge. There are a couple of things to know to have it working:
+- you must use the `xeus-python` kernel (`ipykernel` currently has a limitation with top-level await and widgets).
+- the remote server, or a range-preserving proxy, must allow cross-origin browser requests.
 
 ## Installation
 
